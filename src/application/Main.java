@@ -1,21 +1,22 @@
 package application;
-	
+
 import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-
 public class Main extends Application {
+
 	Stage stage;
 
 	@FXML
-	Label logoLabel;
+	ImageView logoimg;
 
 	@Override
 	public void start(Stage myStage) throws Exception {
@@ -30,8 +31,7 @@ public class Main extends Application {
 
 		try {
 
-			FXMLLoader loader = new FXMLLoader(getClass().getResource(
-					"sample.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("Splash.fxml"));
 			AnchorPane pane = loader.load();
 			// Controller myc=loader.getController();
 			// myc.main(stage,this);
@@ -43,9 +43,8 @@ public class Main extends Application {
 					"https://fonts.googleapis.com/css?family=Dokdo");
 
 			// adding Custom fonts
-			Font.loadFont(
-					getClass().getResourceAsStream(
-							"assets/Sacramento-Regular.ttf"), 20);
+			Font.loadFont(getClass().getResourceAsStream(
+					"assets/Sacramento-Regular.ttf"), 20);
 
 			stage.initStyle(StageStyle.UNDECORATED);
 			stage.setScene(scene);

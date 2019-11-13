@@ -8,6 +8,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
@@ -16,7 +17,7 @@ import javafx.util.Duration;
 public class Controlador {
 
 	@FXML
-	Label logoLabel ;
+	ImageView logoimg ;
 
 	@FXML
 	Pane spinnerPane;
@@ -42,7 +43,7 @@ public class Controlador {
 		try {
 			// Load the fxml file and create a new stage for the popup.
 			FXMLLoader loader = new FXMLLoader();
-			loader.setLocation(Main.class.getResource("menu.fxml"));
+			loader.setLocation(Main.class.getResource("Login.fxml"));
 			AnchorPane page = (AnchorPane) loader.load();
 			Stage homeStage = new Stage();
 			homeStage.setTitle("Main Menu");
@@ -62,7 +63,7 @@ public class Controlador {
 	public void initialize() {
 
 		TranslateTransition translateTransition = new TranslateTransition(
-				Duration.seconds(0.1), logoLabel);
+				Duration.seconds(0.1), logoimg);
 		translateTransition.setByY(700);
 		translateTransition.play();
 
@@ -81,7 +82,7 @@ public class Controlador {
 					
 					
 					TranslateTransition translateTransition1 = new TranslateTransition(
-							Duration.seconds(1), logoLabel);
+							Duration.seconds(1), logoimg);
 					translateTransition1.setByY(-700);
 					
 					translateTransition1.play();
