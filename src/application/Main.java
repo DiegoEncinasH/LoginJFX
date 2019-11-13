@@ -31,7 +31,7 @@ public class Main extends Application {
 
 		try {
 
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("Splash.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage.fxml"));
 			AnchorPane pane = loader.load();
 			// Controller myc=loader.getController();
 			// myc.main(stage,this);

@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="712.0" style="-fx-background-color: #00a75f;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="712.0" style="-fx-background-color: #BF9730;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
    <children>
       <GridPane alignment="CENTER" layoutY="54.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="54.0">
          <columnConstraints>
@@ -31,23 +31,18 @@
                         <Image url="@LOGO.png" />
                      </image>
                   </ImageView>
-                  <Label fx:id="logoLabel" alignment="CENTER" prefHeight="88.0" prefWidth="89.0" styleClass="logo" text="M" textFill="#00a75f">
-                     <font>
-                        <Font name="Microsoft JhengHei UI Light" size="39.0" />
-                     </font>
-                  </Label>
-                  <Label fx:id="nameLabel" styleClass="mytitle" text="MyApp" textFill="WHITE">
+                  <Label fx:id="nameLabel" styleClass="mytitle" text="MyApp" textFill="#c02f2f">
                      <font>
                         <Font name="Bauhaus 93" size="23.0" />
                      </font>
                   </Label>
+                  <Label fx:id="helloLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="172.0" text="Bienvenido..." textFill="#ef4175">
+                     <font>
+                        <Font name="Microsoft YaHei UI Light" size="12.0" />
+                     </font>
+                  </Label>
                </children>
             </VBox>
-            <Label fx:id="helloLabel" prefHeight="30.0" prefWidth="172.0" text="Bienvenido..." textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
-               <font>
-                  <Font name="Microsoft YaHei UI Light" size="12.0" />
-               </font>
-            </Label>
          </children>
       </GridPane>
       <GridPane layoutX="256.0" layoutY="278.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
