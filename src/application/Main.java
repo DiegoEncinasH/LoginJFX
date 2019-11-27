@@ -10,7 +10,13 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-
+/**
+ * 
+ * 
+ * @author dehmb
+ *	@see Controlador
+ *
+ */
 public class Main extends Application {
 
 	Stage stage;

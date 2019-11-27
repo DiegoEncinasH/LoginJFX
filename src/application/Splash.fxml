@@ -33,12 +33,12 @@
                   </ImageView>
                   <Label fx:id="nameLabel" styleClass="mytitle" text="MyApp" textFill="#c02f2f">
                      <font>
-                        <Font name="Bauhaus 93" size="23.0" />
+                        <Font name="Sitka Text" size="23.0" />
                      </font>
                   </Label>
                   <Label fx:id="helloLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="172.0" text="Bienvenido..." textFill="#ef4175">
                      <font>
-                        <Font name="Microsoft YaHei UI Light" size="12.0" />
+                        <Font name="Sitka Text" size="12.0" />
                      </font>
                   </Label>
                </children>
