@@ -52,6 +52,7 @@ public class Controlador {
 			homeStage.setMaximized(true);
 			homeStage.show();
 			System.out.println("second stage ok");
+			
 
 		} catch (IOException e) {
 			e.printStackTrace();
