@@ -39,16 +39,13 @@ public class Main extends Application {
 
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage.fxml"));
 			AnchorPane pane = loader.load();
-			// Controller myc=loader.getController();
-			// myc.main(stage,this);
+			
 
 			Scene scene = new Scene(pane);
 
-			// adding Google fonts
 			scene.getStylesheets().add(
 					"https://fonts.googleapis.com/css?family=Dokdo");
 
-			// adding Custom fonts
 			Font.loadFont(getClass().getResourceAsStream(
 					"assets/Sacramento-Regular.ttf"), 20);
 

@@ -15,7 +15,7 @@
          <children>
             <ImageView fx:id="drawerImage" fitHeight="28.0" fitWidth="34.0" layoutX="43.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@drawer.png" />
+                  <Image url="@LOGO.png" />
                </image>
             </ImageView>
          </children>
@@ -100,37 +100,37 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="Button 1" textFill="#a8a8a8">
+                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="En esta" textFill="#a8a8a8">
                      <font>
                         <Font size="17.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="181.0" prefWidth="326.0" text="Button 2" textFill="#a8a8a8" GridPane.rowIndex="1">
+                  <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="181.0" prefWidth="326.0" text="Aplicacion" textFill="#a8a8a8" GridPane.rowIndex="1">
                      <font>
                         <Font size="17.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="181.0" prefWidth="326.0" text="Button 3" textFill="#a8a8a8" GridPane.rowIndex="2">
+                  <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="181.0" prefWidth="326.0" text="El objetivo" textFill="#a8a8a8" GridPane.rowIndex="2">
                      <font>
                         <Font size="17.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="Button 4" textFill="#a8a8a8" GridPane.rowIndex="3">
+                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="Es lograr" textFill="#a8a8a8" GridPane.rowIndex="3">
                      <font>
                         <Font size="17.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="Button 5" textFill="#a8a8a8" GridPane.rowIndex="4">
+                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="que todo el" textFill="#a8a8a8" GridPane.rowIndex="4">
                      <font>
                         <Font size="17.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="Button 6" textFill="#a8a8a8" GridPane.rowIndex="5">
+                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="mundo se... " textFill="#a8a8a8" GridPane.rowIndex="5">
                      <font>
                         <Font size="17.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="Button 7" textFill="#a8a8a8" GridPane.rowIndex="6">
+                  <JFXButton prefHeight="181.0" prefWidth="326.0" text="RESPETE :)" textFill="#a8a8a8" GridPane.rowIndex="6">
                      <font>
                         <Font size="17.0" />
                      </font>
